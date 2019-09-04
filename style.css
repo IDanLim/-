@@ -37,14 +37,15 @@ body {
         font-size: 5rem;
     }
     .Location_Host {
-        width: 59%;
-        margin: 0 auto;
         text-align: left;
-        font-size: 0.5rem
+        font-size: 0.8rem
     }
 }
 
 @media all and (min-width:768px) {
+    .box{
+        margin-bottom: 3%;
+    }
     .head3 {
         font-size: 2rem;
     }
@@ -52,14 +53,15 @@ body {
         font-size: 9rem;
     }
     .Location_Host {
-        width: 78%;
-        margin: 0 auto;
         text-align: left;
         font-size: 1.5rem
     }
 }
 
 @media all and (min-width:1024px) {
+    .box{
+        margin-bottom: 5%;
+    }
     .head3 {
         font-size: 3rem;
     }
@@ -67,8 +69,6 @@ body {
         font-size: 12rem;
     }
     .Location_Host {
-        width: 81%;
-        margin: 0 auto;
         text-align: left;
         font-size: 2.5rem
     }
